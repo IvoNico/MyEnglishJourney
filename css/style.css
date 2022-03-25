@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*SECCION MENU*/
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 8vh;
+    padding: 10px;
+    background-color: white;
+    border-bottom:solid 1px #9584FF;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 200px;
+}
+/*SECCION INICIO*/
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.banner__img{
+    width: 700px;
+    z-index: 8;
+}
+.banner__title{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.img-scroll{
+    width: 60px;
+}
+.sections-banners__scroll{
+    cursor: pointer;
+    margin: 0px 0px 0px -1000px;
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    bottom: 32px;
+    transition:  bottom 0.2s ease;
+    text-decoration: none;
+}
+.sections-banners__scroll:hover .img-scroll {
+    width: 50px;
+}
+.scroll-title{
+    color: #9584FF;
+}
+
+h1, .title{
+    font-size: 5rem;
+    color: #9584FF;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 50px;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    
+}
+
+/*SECCION FRASE INSPIRACION*/
+.section__inspiration{
+    margin: 80px auto 80px;
+    padding: 30px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #9484ff3d;
+}
+.section__inspiration p{
+    padding: 10px;
+}
+
+/*SECCION EXAMPLES*/
+.english__example, .english__examples-title{
+    margin: 150px auto 0;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.english__examples-info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+.english__expamples-card{
+    width: 250px;
+    height: 20vh;
+    margin: 20px 10px 10px 10px;
+    padding: 10px;
+    
+    border-radius: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.english__examples-title__hover{
+    display: none;
+}
+.english-subtext{
+    display: none;
+}
+.english__expamples-card:hover{
+    background-color: #9584FF;
+}
+.english__expamples-card:hover .english-text{
+    display: none;
+}
+.english__expamples-card:hover .english-subtext{
+    display: block;
+}
+.english__titles:hover .english__examples-title{
+    display: none;
+}
+.english__titles:hover .english__examples-title__hover{
+    background-color: #9584FF;
+    margin: 150px auto 0;
+    width: 550px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+/*SECCION SERVICE*/
+.service{
+    margin: 130px auto;
+    width: 90%;
+    height: 60vh;
+    
+}
+.service__title{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: #9584FF;
+}
+.service__title-cursos{
+    margin: 100px auto 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: #9584FF;
+}
+.service__container-beneficios{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.service__container-beneficios ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    padding: 40px;
+}
+.service__container img{
+    border-radius: 5px;
+    width: 400px;
+}
+.service__title-cursos{
+    margin: 80px auto;
+}
+.servicie__container-cards{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto 0 100px;
+}
+.card{
+    background-color: #9584FF;
+    margin: 0 5px 5px;
+    height: 30vh;
+    width: 400px;
+    display: flex;
+    border-radius: 3px;
+    
+}
+.cursos-img{
+    height: 22vh;
+    margin-top: 70px;
+}
+.cursos-img2{
+    height: 24vh;
+    margin: 35px 0px 0px 200px;
+}
+.cursos-img3{
+    height: 22vh;
+    margin: 40px 0px 0px 200px;
+}
+.cursos-img4{
+    height: 23vh;
+    margin: 40px 0px 0px 100px;
+}
+.cursos-img5{
+    height: 22vh;
+    margin: 50px 0px 0px 200px;
+}
+.cursos-title{
+    position: absolute;
+    width: 350px;
+    margin: 10px 10px;
+    color: white;
+    font-size: 1.2rem;
+}
